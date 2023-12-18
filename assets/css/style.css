@@ -205,6 +205,35 @@
     }
   }
 
+  #artikel .card{
+    border-radius: 0px;
+    width: 100% !important;
+  }
+  #artikel .card img{
+    border-radius: 0px;
+    min-height: 253px;
+  }
+  #artikel .times-card{
+    height: 25px;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    font-size: .8em;
+  }
+   .times-content{ 
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+    position: relative; 
+    border-bottom: 1px solid #dadada;
+  }
+ 
+  .times-content::after{  
+    position: absolute;
+    content: "";
+    padding-bottom: 45px;
+    width: 100%;
+    /* margin-top: 10px; */
+    border-bottom: 1px solid #dadada;
+  }
   /*--------------------------------------------------------------
   # Scroll top button
   --------------------------------------------------------------*/
@@ -719,7 +748,25 @@
     opacity: 0.9;
   }
   
+  .hero .hero-img{
+    width: 100%;
+    min-height: 100vh;
+    padding: 80px 0;
+    margin: 0;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    z-index: 1;
+  }
+  .hero .hero-img::before {
+    content: "";
+    background: linear-gradient(180deg, rgba(162, 212, 138, 0.6) 0%, rgba(137, 202, 159, 0.6) 100%);
 
+    position: absolute;
+    inset: 0;
+  }
   /* SWIPPER */
   .swiper-slide img{
     aspect-ratio: 3/3;
@@ -843,4 +890,12 @@
   
   .footer .footer-legal .credits a {
     color: var(--color-primary);
+  }
+
+  .border-left{
+    border-left: 1px solid #dadada;
+  }
+  .border-right{
+    border-right: 1px solid #dadada;
+    margin-right: 5px !important;
   }
