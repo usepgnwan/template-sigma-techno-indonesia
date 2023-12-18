@@ -131,6 +131,8 @@
 
   section .btn-prev {
     border-radius: 50px !important;
+    padding-left: 25px;
+    padding-right: 25px;
     min-width: 100px;
     color: white;
     background: linear-gradient(180deg, #63B9C2 0%, #98CA7A 100%) !important;
@@ -205,6 +207,15 @@
     }
   }
 
+  @media (max-width: 640px) {
+    .card-colaboration .title{
+      font-size: 0.67em;
+    }
+    .card-colaboration .contact{ 
+      width: 85px;
+      font-size:  0.67em;
+    }
+  }
   #artikel .card{
     border-radius: 0px;
     width: 100% !important;
