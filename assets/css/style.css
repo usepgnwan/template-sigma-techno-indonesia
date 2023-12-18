@@ -184,6 +184,7 @@
   @media (max-width: 768px) {
     .card-colaboration .contact{ 
       width: 95px;
+      font-size: 0.8em;
     }
     #teams .rounded-team{
       width: 150px;
