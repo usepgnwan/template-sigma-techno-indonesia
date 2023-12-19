@@ -264,6 +264,7 @@
   @media (max-width: 768px) {
      #about .img-structur{
       background-position: inherit !important;
+      min-height: 50vh;
      }
   }
   /*--------------------------------------------------------------
