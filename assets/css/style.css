@@ -801,6 +801,11 @@
     position: absolute;
     inset: 0;
   }
+  @media (max-width: 768px) {
+    .hero .hero-img{ 
+      background-attachment: unset;
+    }
+  }
   /* SWIPPER */
   .swiper-slide img{
     aspect-ratio: 3/3;
