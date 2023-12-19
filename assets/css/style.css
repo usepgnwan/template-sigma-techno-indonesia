@@ -245,6 +245,27 @@
     /* margin-top: 10px; */
     border-bottom: 1px solid #dadada;
   }
+  #about #about-coursel{
+    max-width: 450px;
+  }
+  #about #about-coursel .carousel-item img{
+    max-height: 450px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  } 
+  #about .img-structur{
+    min-height: 100vh; 
+    width: 100%;
+    background-position: center !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+  }
+  @media (max-width: 768px) {
+     #about .img-structur{
+      background-position: inherit !important;
+     }
+  }
   /*--------------------------------------------------------------
   # Scroll top button
   --------------------------------------------------------------*/
@@ -909,4 +930,8 @@
   .border-right{
     border-right: 1px solid #dadada;
     margin-right: 5px !important;
+  }
+
+  .text-justify{
+    text-align: justify;
   }
