@@ -183,7 +183,10 @@
     width: 200px;
     display: block;
   }
-  @media (max-width: 768px) {
+  @media (max-width: 768px) { 
+    #contats-colaboration .card-colaboration{
+      height: 77px;
+    }
     .card-colaboration .contact{ 
       width: 95px;
       font-size: 0.8em;
