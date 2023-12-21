@@ -405,6 +405,7 @@
   
     .navbar li {
       position: relative;
+      list-style-type: none;
     }
   
     .navbar>ul>li {
