@@ -52,8 +52,8 @@
   # Sections & Section Header
   --------------------------------------------------------------*/
   main section {
-    margin-top: 30px;
-    padding: 70px 0;
+    margin-top: 85px;
+    padding: 80px 0;
     overflow: hidden;
   }
 
@@ -139,8 +139,8 @@
   }
 
   #services .fill-rounded {
-    width: 80px;
-    height: 80px; 
+    width: 150px;
+    height: 150px; 
     border-radius: 50%; 
     margin: 0 auto;
     background-color: #EEF0F7;
@@ -150,8 +150,8 @@
   }
   
   #teams .rounded-team{
-    width: 250px;
-    height: 245px; 
+    width: 210px;
+    height: 215px; 
     border-radius: 50%;
     position: relative;
     /* background-color: #4D4D4D; */
@@ -189,8 +189,8 @@
       font-size: 0.8em;
     }
     #teams .rounded-team{
-      width: 150px;
-      height: 145px; 
+      width: 140px;
+      height: 135px; 
       border-radius: 50%; 
     }
     .card-colaboration .title{ 
@@ -201,8 +201,8 @@
   }
   @media (max-width: 991px) {
     #teams .rounded-team{
-      width: 150px;
-      height: 145px; 
+      width: 140px;
+      height: 135px; 
       border-radius: 50%; 
     }
   }
@@ -810,7 +810,7 @@
   .swiper-slide img{
     aspect-ratio: 3/3;
     object-fit: contain;
-    width: 40px;
+    width: 80px;
   }
   .swiper-slide{
     justify-content: center;
@@ -819,6 +819,9 @@
   @media (max-width: 768px) {
     .swiper-next svg,  .swiper-prev svg{
       width: 28px;
+    }
+    .swiper-slide img{
+      width: 50px;
     }
   }
   /* FOOTER */
