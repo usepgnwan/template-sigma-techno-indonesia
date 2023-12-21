@@ -150,8 +150,8 @@
   }
   
   #teams .rounded-team{
-    width: 210px;
-    height: 215px; 
+    width: 170px;
+    height: 175px; 
     border-radius: 50%;
     position: relative;
     /* background-color: #4D4D4D; */
@@ -820,6 +820,9 @@
     justify-content: center;
     display: grid;
   } 
+  .swiper-next svg,  .swiper-prev svg{
+    width: 38px;
+  }
   @media (max-width: 768px) {
     .swiper-next svg,  .swiper-prev svg{
       width: 28px;
