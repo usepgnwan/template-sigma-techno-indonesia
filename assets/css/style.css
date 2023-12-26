@@ -171,8 +171,8 @@
     height: 180px; 
     border-radius: 50px; 
     color: white !important;
-    display: flex;
-    align-items: center;
+    /* display: flex;
+    align-items: center; */
     margin: 2px;
   }
   .card-colaboration .contact{  
@@ -181,7 +181,7 @@
     border: 1px solid #FFF;
     background: rgba(99, 185, 194, 0.00);
     width: 200px;
-    display: block;
+    /* display: block; */
   }
   .card-colaboration .contact:hover{
       background: #ffffff;
@@ -190,7 +190,8 @@
   } 
   @media (max-width: 768px) { 
     #contats-colaboration .card-colaboration{
-      height: 77px;
+      height: 107px;
+      padding: 20px;
     }
     .card-colaboration .contact{ 
       width: 95px;
@@ -217,10 +218,11 @@
 
   @media (max-width: 640px) {
     .card-colaboration .title{
-      font-size: 0.67em;
+      font-size: 0.9em;
     }
     .card-colaboration .contact{ 
       width: 85px;
+      padding: 20px;
       font-size:  0.67em;
     }
   }
@@ -275,10 +277,12 @@
       min-height: 50vh;
      }
   }
-
-  #maps .container{
+  #maps {
+    
     background: linear-gradient(180deg, #89C68E 0%, #68BBBC 100%);
-    padding: 100px;
+  }
+  #maps .container{
+    padding: 20px; 
   }
   #maps iframe{
     padding: 40px;
@@ -288,7 +292,7 @@
     border-radius: 50px;
     border: 1px solid #FFF;
     background: rgba(99, 185, 194, 0.00); 
-    padding-top: 15px;
+    padding: 14px;
     color: white;
     align-items: center;
   }
@@ -298,7 +302,7 @@
   }
   @media (max-width: 768px) {
     #maps .btn-location{
-      padding-top: 5px;
+      padding: 10px;
     }
     #maps iframe {
       padding: 0px;
