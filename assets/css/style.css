@@ -425,6 +425,13 @@
     backdrop-filter: blur(2px); 
     padding: 6px 15px !important;
   }
+  li .active{
+    border-radius: 50px;
+    border: none;
+    background: rgba(255, 0, 0, 0.331) !important;
+    /* backdrop-filter: blur(2px); 
+    padding: 6px 15px !important; */
+  }
   @media (max-width: 768px) {
     .header .logo img {
       margin-left: 20px;
@@ -1477,3 +1484,20 @@
   font-size: 14px;
 }
 
+
+
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #9F9D9E;
+  border: 1px solid #89C68E;
+  opacity: 1; /* Firefox */
+}
+
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #9F9D9E;
+  border: 1px solid #89C68E;
+}
+
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+  color: #9F9D9E;
+  border: 1px solid #89C68E;
+}
