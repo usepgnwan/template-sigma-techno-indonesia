@@ -425,7 +425,7 @@
     backdrop-filter: blur(2px); 
     padding: 6px 15px !important;
   }
-  li .active{
+  li .header-contact.active{
     border-radius: 50px;
     border: none;
     background: rgba(255, 0, 0, 0.331) !important;
